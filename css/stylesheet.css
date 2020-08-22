@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    box-sizing:border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+
+p{
+    margin: 0.8rem 0;
+    line-height: 1.4;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+
+/*********************** NAVBAR*******************/
+
+
+.primary-text{
+    color: #93cb52;
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #333;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+    padding: 1rem;
+    align-items: center;
+
+}
+
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+
+#navbar ul li a{
+    color:#fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+
+#navbar ul li a:hover {
+    background-color: #93cb52;
+    border-radius:5px ;
+}
+
+
+/***********************showcase*******************/
+
+
+#showcase{
+    background:#333 url(../images/showcase.jpg) no-repeat center center/cover;
+    height:100vh;
+    color: #fff;
+}
+
+
+.showcase-content{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.3);
+
+}
+
+
+.main-heading{
+    font-size: 4rem;
+    line-height:1.1;
+    margin-bottom:1rem;
+}
+
+
+.main-text{
+    font-size:1.5rem;
+    margin-bottom: 2rem;
+}
+
+ .button{
+    font-size:1.2rem;
+    display: inline-block;
+    background-color: #93cb52;
+    padding: 0.5rem;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.button:hover{
+    background-color: #7ab436;
+}
+
+
+/***********************what we do*******************/
+
+.light-bg {
+    background: #f4f4f4;
+    color: #333;
+   }
+
+
+.pxy1{
+       padding: 1.5rem 0;
+   }
+
+
+#what .what-content{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+
+#what .m-heading{
+    text-align: center;
+    padding-top:1rem;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+#what .items{
+    display: flex;
+    padding:1rem;
+    
+}
+
+
+#what .items .item
+{
+    flex:1;
+    text-align: center;
+    padding:1rem; 
+}
+
+
+#what .items .item i{
+    padding: 1rem;
+    background-color: #93cb52;
+    border-radius: 100px;
+    margin-bottom:1rem;
+}
+
+  
+/****************who we are************/
+
+
+#who{
+    display: flex;
+}
+
+
+#who div{
+    flex:1;
+}
+
+
+.who-image{
+    background:url(../images/people.jpg) no-repeat center center/cover;
+}
+
+
+.dark-bg {
+    background: #333;
+    color: #fff;
+  }
+
+
+.pxy2{
+    padding: 1.25rem;
+}
+
+
+.list{
+    margin:0.5rem 0;
+    list-style: none;
+}
+
+
+.list li{
+    padding:0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+
+
+/****************our client******************/
+
+
+ .m-heading{
+    padding: 1rem;
+    font-size: 2rem;
+    line-height: 1.1;
+
+}
+
+
+.client-content{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+.text-center{
+    
+    text-align: center;
+}
+
+.client{
+    display: flex;
+}
+
+.client img{
+    display: block;
+    margin:auto;
+    width:60%;
+}
+
+
+/*****************contact********************/
+
+
+#contact{
+    display: flex;
+}
+
+
+.form-bg{
+    background-color: #93cb52;
+    color: white;
+}
+
+
+.contact-form,.map{
+    flex: 1;
+    padding: 0.25rem;
+}
+
+
+.contact-form{
+    color: white;
+    text-align: center;
+
+}
+
+
+.form-tabs{
+    margin: 0.75rem;
+}
+
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width:90%;
+    padding: 1rem;
+    height: 2.5rem;
+    display:block;
+    margin: auto;
+}
+
+
+.button-bg{
+    background-color: #333;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+
+.button-bg:hover{
+    background-color: #444444;
+    color: white;
+}
+
+
+.map{
+        background:url(../images/entreprenuer.jpg) no-repeat center center/cover;        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
